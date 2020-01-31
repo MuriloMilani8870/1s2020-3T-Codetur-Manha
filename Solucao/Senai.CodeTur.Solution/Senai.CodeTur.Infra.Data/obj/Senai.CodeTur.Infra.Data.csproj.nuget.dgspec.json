@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj",
+        "projectName": "Senai.CodeTur.Dominio",
+        "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj",
+        "packagesPath": "C:\\Users\\44688951876\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\44688951876\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj",
+        "projectName": "Senai.CodeTur.Infra.Data",
+        "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\44688951876\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\44688951876\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj": {
+                "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Dominio\\Senai.CodeTur.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
