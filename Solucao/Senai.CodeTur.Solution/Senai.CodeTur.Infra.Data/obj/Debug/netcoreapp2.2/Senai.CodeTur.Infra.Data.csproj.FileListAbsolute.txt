@@ -1,0 +1,14 @@
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Dominio.dll
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.csprojAssemblyReference.cache
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.AssemblyInfo.cs
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.deps.json
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.runtimeconfig.json
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.runtimeconfig.dev.json
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.dll
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.pdb
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\bin\Debug\netcoreapp2.2\Senai.CodeTur.Dominio.pdb
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.csproj.CopyComplete
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.dll
+C:\Users\44688951876\Desktop\Repositorio 3Termo\1s2020-3T-Codetur\1s2020-3T-Codetur-Manha\Solucao\Senai.CodeTur.Solution\Senai.CodeTur.Infra.Data\obj\Debug\netcoreapp2.2\Senai.CodeTur.Infra.Data.pdb
