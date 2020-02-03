@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace Senai.CodeTur.Dominio.Entidades
 {
@@ -17,17 +14,16 @@ namespace Senai.CodeTur.Dominio.Entidades
         [Column("Nome", TypeName = "varchar(150)")]
         public string Nome { get; set; }
 
-        [Required]
         [Column("Email", TypeName = "varchar(150)")]
+        [Required]
         public string Email { get; set; }
 
+        [Column("Senha", TypeName = "varchar(15)")]
         [Required]
-        [Column("Senha", TypeName = "varchar(20)")]
         public string Senha { get; set; }
 
+        [Column("Tipo", TypeName = "varchar(20)")]
         [Required]
-        [Column("Tipo", TypeName = "varchar(150)")]
         public string Tipo { get; set; }
-
     }
 }

@@ -1,52 +1,76 @@
-﻿using Senai.CodeTur.Dominio.Entidades;
+﻿using Microsoft.EntityFrameworkCore;
+using Senai.CodeTur.Dominio.Entidades;
 using Senai.CodeTur.Dominio.Interfaces.Repositorios;
+using Senai.CodeTur.Infra.Data.Contextos;
 using Senai.CodeTur.Infra.Data.Repositorios;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace Senai.CodeTur.Teste.XUnit.Repositorios
 {
     public class TesteUsuario
     {
-        private IUsuarioRepositorio _repositorioUsuario;
-
-        public TesteUsuario()
-        {
-            _repositorioUsuario = new UsuarioRepositorio();
-        }
-
+       
         [Fact]
-        public void VerficaUsuarioEInvalido()
+        public void VerificaSeUsuarioEInvalido()
         {
-            var validacao = _repositorioUsuario.EfetuarLogin("admin@gmail.com", "12345");
+            var options = new DbContextOptionsBuilder<CodeTurContext>()
+               .UseInMemoryDatabase(databaseName: "UsuarioEInvalido")
+               .Options;
 
-            Assert.Null(validacao);
+            // Use a clean instance of the context to run the test
+            using (var context = new CodeTurContext(options))
+            {
+                var repo = new UsuarioRepositorio(context);
+                var validacao = repo.EfetuarLogin("admin@gmail.co", "12345");
+
+                Assert.Null(validacao);
+            }
         }
 
         [Fact]
         public void VerificaSeUsuarioEValido()
         {
-            var validacao = _repositorioUsuario.EfetuarLogin("admin@codetur.com", "Codetur@132");
+            var options = new DbContextOptionsBuilder<CodeTurContext>()
+               .UseInMemoryDatabase(databaseName: "UsuarioEValido")
+               .Options;
 
-            Assert.NotNull(validacao);
+            // Use a clean instance of the context to run the test
+            using (var context = new CodeTurContext(options))
+            {
+                var repo = new UsuarioRepositorio(context);
+                var validacao = repo.EfetuarLogin("admin@codetur.com", "12345");
+
+                Assert.Null(validacao);
+            }
         }
 
         [Fact]
-        public void VerificarSeUsuarioEValidoEInfoCorretas()
+        public void VerificaSeUsuarioEValidoEInfoCorretas()
         {
+            var options = new DbContextOptionsBuilder<CodeTurContext>()
+               .UseInMemoryDatabase(databaseName: "UsuarioEValidoEInfoCorretas")
+               .Options;
+
             UsuarioDominio usuario = new UsuarioDominio()
             {
                 Email = "admin@codetur.com",
-                Senha = "Codetur@132"
+                Senha = "Codetur@132",
+                Tipo = "Administrador"
             };
 
-            UsuarioDominio usuarioRetorno = _repositorioUsuario
-                                                .EfetuarLogin(usuario.Email, usuario.Senha);
+            // Use a clean instance of the context to run the test
+            using (var context = new CodeTurContext(options))
+            {
+                var repo = new UsuarioRepositorio(context);
 
-            Assert.Equal(usuarioRetorno.Email, usuario.Email);
-            Assert.Equal(usuarioRetorno.Senha, usuario.Senha);
+                context.Usuarios.Add(usuario);
+                context.SaveChanges();
+
+                UsuarioDominio usuarioRetorno = repo.EfetuarLogin(usuario.Email, usuario.Senha);
+
+                Assert.Equal(usuarioRetorno.Email, usuario.Email);
+                Assert.Equal(usuarioRetorno.Senha, usuario.Senha);
+            }
         }
     }
 }
