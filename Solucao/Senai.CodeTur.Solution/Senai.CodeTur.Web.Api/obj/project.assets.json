@@ -12726,11 +12726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Web.Api\\Senai.CodeTur.Web.Api.csproj",
+      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Web.Api\\Senai.CodeTur.Web.Api.csproj",
       "projectName": "Senai.CodeTur.Web.Api",
-      "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Web.Api\\Senai.CodeTur.Web.Api.csproj",
+      "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Web.Api\\Senai.CodeTur.Web.Api.csproj",
       "packagesPath": "C:\\Users\\44688951876\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Web.Api\\obj\\",
+      "outputPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12751,11 +12751,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj"
+            "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Infra.Data\\Senai.CodeTur.Infra.Data.csproj"
             },
-            "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj": {
-              "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj"
+            "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj": {
+              "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj"
             }
           }
         }

@@ -6733,11 +6733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
+      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
       "projectName": "Senai.CodeTur.Servico",
-      "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
+      "projectPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\Senai.CodeTur.Servico.csproj",
       "packagesPath": "C:\\Users\\44688951876\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\obj\\",
+      "outputPath": "C:\\Users\\44688951876\\Desktop\\Repositorio 3Termo\\1s2020-3T-Codetur\\1s2020-3T-Codetur-Manha\\BackEnd\\Solucao\\Senai.CodeTur.Solution\\Senai.CodeTur.Servico\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
