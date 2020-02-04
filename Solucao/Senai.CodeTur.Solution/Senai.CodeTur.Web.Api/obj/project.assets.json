@@ -1690,10 +1690,10 @@
           "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/2.1.1": {
+      "Microsoft.EntityFrameworkCore.InMemory/2.1.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.1.1"
+          "Microsoft.EntityFrameworkCore": "2.1.11"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
@@ -4676,6 +4676,10 @@
       "Senai.CodeTur.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "2.1.11",
+          "Swashbuckle.AspNetCore.SwaggerGen": "2.1.0"
+        },
         "compile": {
           "bin/placeholder/Senai.CodeTur.Dominio.dll": {}
         },
@@ -4688,8 +4692,10 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.1.14",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.1.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.14",
-          "Senai.CodeTur.Dominio": "1.0.0"
+          "Senai.CodeTur.Dominio": "1.0.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "2.1.0"
         },
         "compile": {
           "bin/placeholder/Senai.CodeTur.Infra.Data.dll": {}
@@ -4701,6 +4707,10 @@
       "Senai.CodeTur.Servico/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "2.1.11",
+          "Swashbuckle.AspNetCore.SwaggerGen": "2.1.0"
+        },
         "compile": {
           "bin/placeholder/Senai.CodeTur.Servico.dll": {}
         },
@@ -6208,16 +6218,16 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.InMemory/2.1.1": {
-      "sha512": "rFqDal++1QxSGskca16T40ZIrwCcecCOKlLSJy9ivCE/Z7uXKdvX5rrZcKOjelev439WmErD8d1I8SVVFpWx4A==",
+    "Microsoft.EntityFrameworkCore.InMemory/2.1.11": {
+      "sha512": "nPwRkMOabyJOcH3wR1sccxKKbh0D8g3o1MCdeFZ/Vo4BDHnpp4HvFNOYO4viOgbp109qHc76banS1WjFnra5qg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/2.1.1",
+      "path": "microsoft.entityframeworkcore.inmemory/2.1.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.2.1.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.2.1.11.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
@@ -12700,6 +12710,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.InMemory >= 2.1.11",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
       "Senai.CodeTur.Infra.Data >= 1.0.0",
@@ -12763,6 +12774,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[2.1.11, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
